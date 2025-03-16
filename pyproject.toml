@@ -1,0 +1,22 @@
+[project]
+name = "rp-tf"
+version = "0.1.0"
+description = "A test framework aimed at learning programming and covering certain functionality cases of the company"
+authors =  [
+    {name = "Vladyslav Piontkovskyi",email = "197165402+vpiontkovskyi@users.noreply.github.com"},
+    {name = "Anton Kanifolskyi",email = "antonkanifolskiy@gmail.com"},
+    {name = "Olerkandr Romanchenko",email = "oromanchenkovik@gmail.com"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest (>=8.3.5,<9.0.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "playwright (>=1.50.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
